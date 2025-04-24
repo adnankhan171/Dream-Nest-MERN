@@ -124,7 +124,7 @@ const ListingDetails = () => {
 
         <div className="profile">
           <img
-            src={`http://localhost:3001/${listing.creator.profileImagePath.replace(
+            src={`http://dream-nest-mern.railway.internal/${listing.creator.profileImagePath.replace(
               "public",
               ""
             )}`}
