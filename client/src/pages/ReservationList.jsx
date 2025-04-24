@@ -17,12 +17,12 @@ const ReservationList = () => {
   const getReservationList = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3001/users/${userId}/reservations`,
+        `http://dream-nest-mern.railway.internal/users/${userId}/reservations`,
         {
           method: "GET",
         }
       );
-
+      
       const data = await response.json();
       dispatch(setReservationList(data));
       setLoading(false);
