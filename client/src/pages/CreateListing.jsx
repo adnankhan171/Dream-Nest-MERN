@@ -128,7 +128,7 @@ const CreateListing = () => {
       });
 
       /* Send a POST request to server */
-      const response = await fetch("http://dream-nest-mern.railway.internal/properties/create", {
+      const response = await fetch("http://dream-nest-mern-production.up.railway.app/properties/create", {
         method: "POST",
         body: listingForm,
       });

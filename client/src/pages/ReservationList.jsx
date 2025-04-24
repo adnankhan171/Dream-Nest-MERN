@@ -17,7 +17,7 @@ const ReservationList = () => {
   const getReservationList = async () => {
     try {
       const response = await fetch(
-        `http://dream-nest-mern.railway.internal/users/${userId}/reservations`,
+        `http://dream-nest-mern-production.up.railway.app/users/${userId}/reservations`,
         {
           method: "GET",
         }

@@ -22,7 +22,7 @@ const SearchPage = () => {
       setError(null);
       
       const response = await fetch(
-        `http://dream-nest-mern.railway.internal/properties/search/${search}`,
+        `http://dream-nest-mern-production.up.railway.app/properties/search/${search}`,
         { method: "GET" }
       );
 

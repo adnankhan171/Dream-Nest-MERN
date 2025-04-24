@@ -18,7 +18,7 @@ const CategoryPage = () => {
   const getFeedListings = async () => {
     try {
       const response = await fetch(
-          `http://dream-nest-mern.railway.internal/properties?category=${category}`,
+          `http://dream-nest-mern-production.up.railway.app/properties?category=${category}`,
         {
           method: "GET",
         }

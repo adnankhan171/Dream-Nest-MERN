@@ -16,7 +16,7 @@ const PropertyList = () => {
   const dispatch = useDispatch()
   const getPropertyList = async () => {
     try {
-      const response = await fetch(`http://dream-nest-mern.railway.internal/users/${user._id}/properties`, {
+      const response = await fetch(`http://dream-nest-mern-production.up.railway.app/users/${user._id}/properties`, {
         method: "GET"
       })
       const data = await response.json()

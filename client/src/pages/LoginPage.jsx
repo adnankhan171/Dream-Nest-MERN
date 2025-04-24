@@ -17,7 +17,7 @@ const LoginPage = () => {
     e.preventDefault()
 
     try {
-      const response = await fetch ("http://dream-nest-mern.railway.internal/auth/login", {
+      const response = await fetch ("http://dream-nest-mern-production.up.railway.app/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
